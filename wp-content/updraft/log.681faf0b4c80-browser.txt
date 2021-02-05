@@ -1,0 +1,57 @@
+0000.040 (R) [notice] Looking for db archive: file name: backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-db.gz
+0000.041 (R) [notice] Archive is expected to be size: 42.9 KB: OK
+0000.047 (R) [notice] Looking for plugins archive: file name: backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-plugins.zip
+0000.049 (R) [notice] Archive is expected to be size: 13310.9 KB: OK
+0000.051 (R) [notice] Looking for themes archive: file name: backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-themes.zip
+0000.053 (R) [notice] Archive is expected to be size: 6102.5 KB: OK
+0000.056 (R) [notice] Looking for uploads archive: file name: backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-uploads.zip
+0000.057 (R) [notice] Archive is expected to be size: 1244.9 KB: OK
+0000.061 (R) [notice] Looking for others archive: file name: backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-others.zip
+0000.063 (R) [notice] Archive is expected to be size: 0.1 KB: OK
+0000.066 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.071 (R) [notice] Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-db.gz, 0 Mb)
+0001.131 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.263 (R) [notice] Enabling Maintenance mode&#8230;
+0001.301 (R) [notice] Backup of: http://localhost/203-accelerate
+0001.304 (R) [notice] Content URL: http://localhost/203-accelerate/wp-content
+0001.304 (R) [notice] Uploads URL: http://localhost/203-accelerate/wp-content/uploads
+0001.304 (R) [notice] Old table prefix: wp_
+0001.304 (R) [notice] Site information: multisite = 0
+0001.305 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0001.306 (R) [notice] New table prefix: wp_
+0001.338 (R) [notice] Processing table (InnoDB):  wp_options
+0001.504 (R) [notice] Processing table (InnoDB):  wp_users
+0001.603 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0001.683 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0001.749 (R) [notice] Processing table (InnoDB):  wp_comments
+0001.833 (R) [notice] Processing table (InnoDB):  wp_links
+0001.917 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0002.007 (R) [notice] Processing table (InnoDB):  wp_posts
+0002.108 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0002.196 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0002.275 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0002.388 (R) [notice] Processing table (InnoDB):  wp_terms
+0002.466 (R) [notice] Disabling Maintenance mode&#8230;
+0002.467 (R) [notice] Finished: lines processed: 41 in 1.33 seconds
+0002.468 (R) [notice] Cleaning up rubbish...
+0002.482 (R) [notice] Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-plugins.zip, 13 MB)
+0014.926 (R) [notice] Unzip progress: 1002 out of 2090 files (20.7 MB, plugins/updraftplus/languages/updraftplus-bg_BG.mo)
+0030.744 (R) [notice] Unzip progress: 1895 out of 2090 files (39 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/DatabaseListError.php)
+0033.435 (R) [notice] Unzip progress: 2090 out of 2090 files (39.5 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0033.438 (R) [notice] Moving old data out of the way...
+0033.847 (R) [notice] Moving unpacked backup into place...
+0034.241 (R) [notice] Cleaning up rubbish...
+0034.254 (R) [notice] Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-themes.zip, 6 MB)
+0041.351 (R) [notice] Unzip progress: 536 out of 536 files (8.7 MB, themes/twentytwentyone/template-parts/post/author-bio.php)
+0041.353 (R) [notice] Moving old data out of the way...
+0041.486 (R) [notice] Moving unpacked backup into place...
+0041.614 (R) [notice] Cleaning up rubbish...
+0041.624 (R) [notice] Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-uploads.zip, 1.2 MB)
+0041.817 (R) [notice] Unzip progress: 30 out of 30 files (1.2 MB, uploads/2021/02/zurb.jpg)
+0041.819 (R) [notice] Moving old data out of the way...
+0041.828 (R) [notice] Moving unpacked backup into place...
+0041.836 (R) [notice] Cleaning up rubbish...
+0041.846 (R) [notice] Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-others.zip, 0 MB)
+0041.853 (R) [notice] Unzip progress: 1 out of 1 files (30 B, index.php)
+0041.858 (R) [notice] Cleaning up rubbish...
+0041.885 (R) [notice] Restore successful!

@@ -1,0 +1,88 @@
+0000.007 () Opened log file at time: Fri, 05 Feb 2021 04:28:26 +0000 on http://localhost/203-accelerate
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.47 WP: 5.6 PHP: 7.4.1 (apache2handler, Windows NT ACTIVATEIT28738 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 5.7.24 WPLANG: en_US Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29M | 4M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 () Free space on disk containing Updraft's temporary directory: 46773.5 MB
+0000.004 () Opened log file at time: Fri, 05 Feb 2021 04:28:27 +0000 on http://localhost/203-accelerate
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.47 WP: 5.6 PHP: 7.4.1 (apache2handler, Windows NT ACTIVATEIT28738 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 5.7.24 WPLANG: en_US Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.1M | 4M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 46773.2 MB
+0000.028 () Ensuring WP_Filesystem is setup for a restore
+0000.032 () WP_Filesystem is setup and ready for a restore
+0000.039 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.066 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.070 () Entity: db
+0000.070 () restore_backup(backup_file=backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-db.gz, type=db, info=a:0:{}, last_one=)
+0000.071 () Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-db.gz, 0 Mb)
+0001.128 () Database successfully unpacked
+0001.131 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.131 () Using direct MySQL access; value of use_mysqli is: 1
+0001.132 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0001.263 () Max packet size: 32 MB
+0001.263 () Entering maintenance mode
+0001.263 () Enabling Maintenance mode&#8230;
+0001.301 () Backup of: http://localhost/203-accelerate
+0001.304 () Content URL: http://localhost/203-accelerate/wp-content
+0001.304 () Uploads URL: http://localhost/203-accelerate/wp-content/uploads
+0001.304 () Old table prefix: wp_
+0001.304 () Site information: multisite=0
+0001.305 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0001.306 () New table prefix: wp_
+0001.338 () Processing table (InnoDB): wp_options
+0001.474 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0001.504 () Processing table (InnoDB): wp_users
+0001.603 () Processing table (InnoDB): wp_usermeta
+0001.683 () Processing table (InnoDB): wp_commentmeta
+0001.749 () Processing table (InnoDB): wp_comments
+0001.833 () Processing table (InnoDB): wp_links
+0001.917 () Processing table (InnoDB): wp_postmeta
+0002.007 () Processing table (InnoDB): wp_posts
+0002.108 () Processing table (InnoDB): wp_term_relationships
+0002.195 () Processing table (InnoDB): wp_term_taxonomy
+0002.275 () Processing table (InnoDB): wp_termmeta
+0002.388 () Processing table (InnoDB): wp_terms
+0002.466 () Unlocking database and leaving maintenance mode
+0002.466 () Disabling Maintenance mode&#8230;
+0002.467 () Finished: lines processed: 41 in 1.33 seconds
+0002.468 () Cleaning up rubbish...
+0002.482 () Entity: plugins
+0002.482 () restore_backup(backup_file=backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:73:"C:\Users\Matthew Payne\Documents\GitHub\203-accelerate/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0002.482 () Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-plugins.zip, 13 MB)
+0002.485 () Unzipping backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-plugins.zip to C:/Users/Matthew Payne/Documents/GitHub/203-accelerate/wp-content/upgrade/2d253526/ using UpdraftPlus_ZipArchive, starting index 0
+0014.926 () Unzip progress: 1002 out of 2090 files (20.7 MB, plugins/updraftplus/languages/updraftplus-bg_BG.mo)
+0030.744 () Unzip progress: 1895 out of 2090 files (39 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/DatabaseListError.php)
+0033.435 () Unzip progress: 2090 out of 2090 files (39.5 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0033.437 () Moving old data: filesystem method / updraft_dir is potentially possible
+0033.438 () Moving old data: can potentially use wp_filesystem method / -old
+0033.438 () Moving old data out of the way...
+0033.836 () Top-level entities being moved: advanced-custom-fields, index.php, menu-icons, updraftplus
+0033.847 () Moving unpacked backup into place...
+0034.228 () Top-level entities being moved: advanced-custom-fields, index.php, menu-icons, updraftplus
+0034.240 () Cleaning up rubbish...
+0034.253 () Entity: themes
+0034.253 () restore_backup(backup_file=backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-themes.zip, type=themes, info=a:2:{s:4:"path";s:72:"C:\Users\Matthew Payne\Documents\GitHub\203-accelerate/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0034.254 () Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-themes.zip, 6 MB)
+0034.255 () Unzipping backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-themes.zip to C:/Users/Matthew Payne/Documents/GitHub/203-accelerate/wp-content/upgrade/3f2f3166/ using UpdraftPlus_ZipArchive, starting index 0
+0041.351 () Unzip progress: 536 out of 536 files (8.7 MB, themes/twentytwentyone/template-parts/post/author-bio.php)
+0041.352 () Moving old data: filesystem method / updraft_dir is potentially possible
+0041.353 () Moving old data: can potentially use wp_filesystem method / -old
+0041.353 () Moving old data out of the way...
+0041.473 () Top-level entities being moved: accelerate-theme, accelerate-theme-child, index.php, twentyfourteen, twentynineteen, twentytwenty, twentytwentyone
+0041.486 () Moving unpacked backup into place...
+0041.599 () Top-level entities being moved: accelerate-theme, accelerate-theme-child, index.php, twentyfourteen, twentynineteen, twentytwenty, twentytwentyone
+0041.614 () Cleaning up rubbish...
+0041.623 () Entity: uploads
+0041.623 () restore_backup(backup_file=backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:73:"C:\Users\Matthew Payne\Documents\GitHub\203-accelerate/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0041.624 () Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-uploads.zip, 1.2 MB)
+0041.626 () Unzipping backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-uploads.zip to C:/Users/Matthew Payne/Documents/GitHub/203-accelerate/wp-content/upgrade/10a806cb/ using UpdraftPlus_ZipArchive, starting index 0
+0041.817 () Unzip progress: 30 out of 30 files (1.2 MB, uploads/2021/02/zurb.jpg)
+0041.818 () Moving old data: filesystem method / updraft_dir is potentially possible
+0041.819 () Moving old data: can potentially use wp_filesystem method / -old
+0041.819 () Moving old data out of the way...
+0041.828 () Moving unpacked backup into place...
+0041.836 () Cleaning up rubbish...
+0041.845 () Entity: others
+0041.845 () restore_backup(backup_file=backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-others.zip, type=others, info=a:2:{s:4:"path";s:65:"C:\Users\Matthew Payne\Documents\GitHub\203-accelerate/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0041.846 () Unpacking backup... (backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-others.zip, 0 MB)
+0041.847 () Unzipping backup_2021-02-05-0348_Accelerate_8f526cb8d7ac-others.zip to C:/Users/Matthew Payne/Documents/GitHub/203-accelerate/wp-content/upgrade/a449fa5f/ using UpdraftPlus_ZipArchive, starting index 0
+0041.853 () Unzip progress: 1 out of 1 files (30 B, index.php)
+0041.857 () Cleaning up rubbish...
+0041.885 () Restore successful!
+0041.885 () Restore successful

@@ -1,0 +1,97 @@
+
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    
+}
+
+#masthead {
+    background-color: #45ad9c;
+}
+
+.button {
+    background-color: #45ad9c;
+}
+
+.blog-post {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em 0 .5em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+aside.case-study-sidebar {
+    width: 35%;
+    float: left;
+    margin-right: 1%;
+}
+div.case-study-images{
+    margin-top: 5%;
+    overflow: auto;
+}
+
+.homepage-featured-work {
+    display: flex;
+
+}
+
+figure, img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-content h4 {
+    text-align: center;
+}
+
+.blog-post h4 {
+    text-align: start;
+}
+ul h3 {
+    text-align: center;
+}
+
+.case-study-sidebar h5 {
+    color: #a6a6a6;
+    font-size: .7em;
+}
+
+.case-study-sidebar p a {
+    color: #45ac9d;
+    font-weight: 700;
+}
