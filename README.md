@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/Matthewpco/Rogue-Pickings/master/img/rp-ss.png)
+![](https://raw.githubusercontent.com/Matthewpco/WP-AccelMarketing/master/wp-content/themes/accelerate-theme-child/img/accel-SS.png)
 
 # This is a web site for Accelerate Marketing to display their case studies of success
 
